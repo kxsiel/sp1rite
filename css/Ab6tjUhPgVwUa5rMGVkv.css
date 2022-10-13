@@ -221,10 +221,10 @@ a.active,a:focus,a:hover{
     min-height: 1em;
     border: none;
     text-decoration: none;
-    background-color:none;
+    background-color:#ffc8ff;
     color:#fff;
     font-family: 'Open Sans', sans-serif;
-    font-style:normal;	
+    font-style:normal;
 }
 #stars{
     width:2px;
