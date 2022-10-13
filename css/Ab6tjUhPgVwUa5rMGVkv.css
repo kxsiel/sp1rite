@@ -222,8 +222,10 @@ a.active,a:focus,a:hover{
     border: none;
     text-decoration: none;
     background: none;
+    color:#fff;
     font-family: 'Open Sans', sans-serif;
-    font-style:normal;
+    font-style:normal;	
+    font-size:12px;
 }
 #stars{
     width:2px;
