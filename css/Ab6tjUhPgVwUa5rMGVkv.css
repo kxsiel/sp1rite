@@ -221,8 +221,7 @@ a.active,a:focus,a:hover{
     min-height: 1em;
     border: none;
     text-decoration: none;
-    background-color:#ffc8ff;
-    color:#fff;
+    background: none;
     font-family: 'Open Sans', sans-serif;
     font-style:normal;
 }
