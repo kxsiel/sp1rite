@@ -220,7 +220,11 @@ a.active,a:focus,a:hover{
     display: inline-block;
     min-height: 1em;
     border: none;
-      text-decoration: none;
+    text-decoration: none;
+    background-color:none;
+    color:#fff;
+    font-family: 'Open Sans', sans-serif;
+    font-style:normal;	
 }
 #stars{
     width:2px;
