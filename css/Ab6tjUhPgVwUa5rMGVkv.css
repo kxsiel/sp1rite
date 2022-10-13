@@ -219,6 +219,8 @@ a.active,a:focus,a:hover{
     cursor: pointer;
     display: inline-block;
     min-height: 1em;
+    border: none;
+      text-decoration: none;
 }
 #stars{
     width:2px;
