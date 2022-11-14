@@ -1,0 +1,56 @@
+@import './base.css';
+
+::-webkit-scrollbar { 
+  width: 0px;
+  background: transparent; /* make scrollbar transparent */
+}
+
+#app {
+  
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem;
+
+  font-weight: normal;
+}
+
+a,
+.pink {
+  text-decoration: none;
+  color: #052194;
+  transition: 0.4s;
+}
+
+body {
+  background-color: black;
+  display:flexbox;
+  place-items: center;
+  overflow:visible;
+  height: 100%;
+  width: 100%;
+  display:flow-root;
+
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: #ffc8ff77;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    background-color: black;
+    align-items: center;
+    display:flexbox;
+    place-items: center;
+    overflow:visible;
+    height: 100%;
+  }
+
+  #app {
+    display:flow-root;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
+}
